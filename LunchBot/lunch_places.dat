@@ -1,0 +1,64 @@
+{
+    "Daves Downtown": {
+        "quick": "Y",
+        "skyway_access": "Y",
+        "location": "Oracle Building",
+        "description": "Burgers, sandwiches, wraps, salads, daily specials",
+        "recommendations": "Everything!",
+        "breakfast": "Y",
+        "duplicable": "Y",
+        "daily_specials": {
+            "monday": "lasagna",
+            "tuesday": "tater tot hotdish",
+            "wednesday": "chicken penne",
+            "thursday": "open faced turkey sandwich",
+            "friday": "enchiladas"
+        },
+        "tags": "variety",
+        "weighted_days": "Wednesday"
+    },
+    "Andreas Pizza": {
+        "quick": "Y",
+        "skyway_access": "Y",
+        "location": "??",
+        "description": "pizza",
+        "recommendations": "Everything!"
+    },
+    "Skyway Wok": {
+        "quick": "Y",
+        "skyway_access": "Y",
+        "location": "Baker Building",
+        "description": "Asian Buffet",
+        "recommendations": "Fried rice, sesame chicken, egg roll",
+        "breakfast": "Y"
+    },
+    "Pepperjax": {
+        "food_truck": "Y",
+        "quick": "Y",
+        "location": "Outside",
+        "description": "philly cheesesteak sandwich",
+        "recommendations": "steak and fries"
+    },
+    "Hen House": {
+        "sit_down" : "Y",
+        "skyway_access": "Y",
+        "location": "Baker Building",
+        "description": "all day breakfast, desserts, burgers, sandwiches",
+        "recommendations": "omelets, sandwiches, and desserts"
+    },
+    "Valentinos": {
+        "skyway_access": "Y",
+        "quick": "Y",
+        "location": "AT&T Tower",
+        "description": "Tacos and gyros, salad bar",
+        "recommendations": "chicken tacos with a side of fried rice",
+        "weighted_days": "Wednesday"
+    },
+    "Broadway Pizza": {
+        "skyway_access": "Y",
+        "quick": "Y",
+        "location": "US Bank Building",
+        "description": "Build your own pizza, salads and pastas",
+        "recommendations": "BBQ chicken on New York Style"
+    }
+}

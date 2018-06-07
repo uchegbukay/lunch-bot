@@ -1,0 +1,5 @@
+Tuesday=Broadway Pizza
+Friday=
+Monday=
+Wednesday=
+Thursday=Skyway Wok
