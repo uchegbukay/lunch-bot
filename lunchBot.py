@@ -1,5 +1,8 @@
 from random import *
-from LunchBot import preferenceLoader, memoryLoader, lunchLocations, dictionaryFilters
+import memoryLoader
+import dictionaryFilters
+import lunchLocations
+import preferenceLoader
 
 
 def lunch_bot():
