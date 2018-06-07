@@ -3,6 +3,7 @@ def filter_locations(lunch_locations, preferences, previous_lunches):
     final_lunch_locations = {}
     previous_places = {}
 
+    # create a new dictionary based on preferences (trims all locations based on
     for (pk, pv) in preferences.items():
         lunch_locations2 = {k: v for (k, v) in lunch_locations.items() if pk in v and v[pk] == pv}
 

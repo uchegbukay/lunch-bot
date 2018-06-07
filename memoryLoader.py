@@ -5,6 +5,7 @@ import os.path
 preferences = {}
 
 
+# adds the days of the week to a file
 def create_new_lunch_memory():
     with open('lunchMemory.txt', 'w') as f:
         f.write("Monday=\n")
@@ -29,6 +30,7 @@ def get_previous_lunches():
     return preferences
 
 
+# add a lunch to the file for today's day of the week
 def add_lunch(place, past_lunches):
     day = dateUtils.get_day_of_week()
 
