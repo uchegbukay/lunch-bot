@@ -19,19 +19,19 @@ def lunch_bot():
     # if no lunch locations exist after filtering....
     if not filtered_locations:
         print(
-            '\nUnfortunately there are no lunch options for your preferences. Expand your horizon or don\'t be so picky.')
+          '\nUnfortunately there are no lunch options for your preferences. Expand your horizon or don\'t be so picky.')
         # this exits the program without running anymore code
         exit(0)
-
 
     todays_lunch = ""
     # keep doing this logic until we run out of choices
     while filtered_locations:
+        # 'list()' turns the dictionary into a list so we can randomly choose one
         todays_lunch = choice(list(filtered_locations))
         accept_lunch = input('How does ' + todays_lunch + ' sound for lunch today? (y/n)')
         if 'y' in accept_lunch.lower():
             memoryLoader.add_lunch(todays_lunch, previous_lunches)
-            break
+            break  # if a lunch is selected break out of the while loop
         else:
             # if you dont want that lunch we will delete it from the choices and try again
             del filtered_locations[todays_lunch]
