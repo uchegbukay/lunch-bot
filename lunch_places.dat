@@ -62,7 +62,7 @@
         "recommendations": "BBQ chicken on New York Style"
     },
     "Get Sauced": {
-        "skyway_access": "N",
+        "food_truck": "Y",
         "quick": "Y",
         "location": "Outside",
         "description": "Really good BBQ sandwiches and tacos",
