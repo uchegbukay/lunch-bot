@@ -61,6 +61,13 @@
         "description": "Build your own pizza, salads and pastas",
         "recommendations": "BBQ chicken on New York Style"
     },
+    "Get Sauced": {
+        "food_truck": "Y",
+        "quick": "Y",
+        "location": "Outside",
+        "description": "Really good BBQ sandwiches and tacos",
+        "recommendations": "BBQ Pulled Pork Sandwich"
+    },
     "Tavern 333": {
         "skyway_access": "Y",
         "quick": "N",
