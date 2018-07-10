@@ -75,4 +75,13 @@
         "description": "Decent food, OK happy hour",
         "recommendations": "Cheese burger...it's ok"
     }
+     },
+    "Chipotle": {
+        "skyway_access": "Y",
+        "quick": "N",
+        "location": "US Bank Plaza",
+        "description": "Great Burritos, Healthy Option",
+        "recommendations": "Burrito, Black Beans, chicken + Steak... a whole days meal"
+    }
+}
 }
