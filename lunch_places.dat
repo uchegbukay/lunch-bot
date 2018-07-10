@@ -60,5 +60,12 @@
         "location": "US Bank Building",
         "description": "Build your own pizza, salads and pastas",
         "recommendations": "BBQ chicken on New York Style"
+    },
+    "Get Sauced": {
+        "skyway_access": "N",
+        "quick": "Y",
+        "location": "Outside",
+        "description": "Really good BBQ sandwiches and tacos",
+        "recommendations": "BBQ Pulled Pork Sandwich"
     }
 }
