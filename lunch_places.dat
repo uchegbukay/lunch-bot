@@ -67,5 +67,12 @@
         "location": "Outside",
         "description": "Really good BBQ sandwiches and tacos",
         "recommendations": "BBQ Pulled Pork Sandwich"
+    },
+    "Tavern 333": {
+        "skyway_access": "Y",
+        "quick": "N",
+        "location": "SPS Tower",
+        "description": "Decent food, OK happy hour",
+        "recommendations": "Cheese burger...it's ok"
     }
 }
