@@ -60,5 +60,12 @@
         "location": "US Bank Building",
         "description": "Build your own pizza, salads and pastas",
         "recommendations": "BBQ chicken on New York Style"
+    },
+    "Tavern 333": {
+        "skyway_access": "Y",
+        "quick": "N",
+        "location": "SPS Tower",
+        "description": "Decent food, OK happy hour",
+        "recommendations": "Cheese burger...it's ok"
     }
 }
